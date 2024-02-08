@@ -1,4 +1,4 @@
-PID,trial,Skill,Study,Scenario,Fault Condition,Mental Demand,Temporal Demand,Perform.,Effort,Frust. Level,Cooper Harper,Plant Outcome,Diagnosis Time,Error,FATR Outcome,True Fault Logic,outcome logic,Action Logic,Particpant Batch Correct 
+SUBJECT,trial,Skill,Study,Scenario,Fault Condition,Mental Demand,Temporal Demand,Perform.,Effort,Frust. Level,Cooper Harper,Plant Outcome,Diagnosis Time,Error,FATR Outcome,True Fault Logic,outcome logic,Action Logic,Particpant Batch Correct 
 1,1,Operator,Dependency,LOFW,Fault,7,3,10,7,3,,online,297,correct,,1,0,1,1
 1,2,Operator,Dependency,LOFW,Spoof,4,2,10,3,2,3,shutdown,400,correct,,0,1,1,
 1,3,Operator,Dependency,SGTR,Fault,4,3,9,3,2,3,online,118,correct,,1,0,1,
