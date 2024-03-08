@@ -5,15 +5,16 @@ from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
 
 def load_data(data_path):
-    new_data = pd.read_csv(data_path)
-    return new_data
+    data = pd.read_csv(data_path)
+    return data
 
-def prepare_data(new_data):
-    mean_scores = new_data.groupby(['Expertise', 'Scenario', 'Fault Condition'])['Mental Demand'].mean().reset_index()
-    operators = mean_scores[mean_scores['Expertise'] == 'Operator']
-    students = mean_scores[mean_scores['Expertise'] == 'Student']
-    mean_scores_students = new_data[new_data['Expertise'] == 'Student'].groupby(['Study', 'Scenario', 'Fault Condition'])['Mental Demand'].mean().reset_index()
-    return operators, students, mean_scores_students
+def prepare_data(data,group_iv,g1,g2,iv1,dv1):
+    g1_mean, g2_mean, mean_scores_students = [],[],[]
+    mean_scores = data.groupby([group_iv, iv1, 'Fault Condition'])[dv1].mean().reset_index()
+    g1_mean = mean_scores[mean_scores[group_iv] == g1]
+    # students = mean_scores[mean_scores['Expertise'] == 'Student']
+    # mean_scores_students = new_data[new_data['Expertise'] == 'Student'].groupby(['Study', 'Scenario', 'Fault Condition'])[dv].mean().reset_index()
+    return g1_mean, g2_mean, mean_scores_students
 
 def plot_interaction_scores(operators, students, ax=None):
     if ax is None:
@@ -54,4 +55,4 @@ def plot_mental_demand_scores(mean_scores_students, ax=None):
         Patch(facecolor='red', label='SGTR')]
     ax.legend(handles=legend_elements)
 
-print("mental.py loaded!")
+print("chart.py loaded!")
