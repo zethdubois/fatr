@@ -24,12 +24,13 @@ def plot_interaction_scores(operators, students, iv1, iv2, dv1, tit1, ax=None):
         fig, ax = plt.subplots(figsize=(10, 6))
     # Use the provided ax for plotting
     for scenario, color in zip(['LOFW', 'SGTR'], ['blue', 'red']):
-        # Operators
+        # Operators with error bars
         subset_operators = operators[operators['Scenario'] == scenario]
-        ax.plot(subset_operators['Fault Condition'], subset_operators[dv1], label=f'Operators - {scenario}', marker='o', markersize=5, linestyle='--', linewidth=2, color=color)
-        # Students
+        ax.errorbar(subset_operators['Fault Condition'], subset_operators[dv1], yerr=subset_operators['StdError'], fmt='o', label=f'Operators - {scenario}', linestyle='--', linewidth=2, color=color, capsize=5)
+        
+        # Students with error bars
         subset_students = students[students['Scenario'] == scenario]
-        ax.plot(subset_students['Fault Condition'], subset_students[dv1], label=f'Students - {scenario}', marker='o', markersize=5, linestyle='-', linewidth=2, color=color)
+        ax.errorbar(subset_students['Fault Condition'], subset_students[dv1], yerr=subset_students['StdError'], fmt='o', label=f'Students - {scenario}', linestyle='-', linewidth=2, color=color, capsize=5)
 
     ax.set_title(tit1)
     ax.set_xlabel(iv2)
@@ -40,14 +41,14 @@ def plot_interaction_scores(operators, students, iv1, iv2, dv1, tit1, ax=None):
                    Patch(facecolor='red', label='SGTR')]
     ax.legend(handles=legend_elements)
 
-def plot_mental_demand_scores(mean_scores_students, ax=None):
+def plot_mental_demand_scores(mean_scores_students, dv1, ax=None):
     if ax is None:
         fig, ax = plt.subplots(figsize=(10, 6))
     # Plotting logic using ax
     for study, marker in zip(['Dependency', 'FATR'], ['^', 's']):
         for scenario, color in zip(['LOFW', 'SGTR'], ['blue', 'red']):
             subset = mean_scores_students[(mean_scores_students['Study'] == study) & (mean_scores_students['Scenario'] == scenario)]
-            ax.plot(subset['Fault Condition'], subset[dv1], label=f'{study} - {scenario}', marker=marker, markersize=10, linestyle='-', linewidth=2, color=color)
+            ax.errorbar(subset['Fault Condition'], subset[dv1], yerr=subset['StdError'], fmt=marker, label=f'{study} - {scenario}', markersize=10, linestyle='-', linewidth=2, color=color, capsize=5)
 
     ax.set_title('Mental Demand Scores for Students; Normal vs FATR')
     ax.set_xlabel('Fault Condition')
