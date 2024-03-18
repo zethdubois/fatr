@@ -1,0 +1,97 @@
+SUBJECT,trial,Expertise,Study,Scenario,Fault,Mental Demand,Temporal Demand,Performance,Effort,Frustration Level,Cooper Harper,Plant Outcome,Diagnosis Time,Error,FATR Outcome,True True Fault Logic,outcome logic,Decision,Particpant Batch Correct 
+13,1,Student,Dependency,LOFW,Spoof,7,6,6,6,5,7,shutdown,322,error,,0,0,0,0.5
+13,2,Student,Dependency,LOFW,True Fault,7,8,8,7,6,8,shutdown,417,correct,,1,0,1,
+13,3,Student,Dependency,SGTR,Spoof,6,9,5,7,9,7,shutdown,0,error,,0,0,0,
+13,4,Student,Dependency,SGTR,True Fault,8,8,9,7,5,6,shutdown,69,correct,,1,0,1,
+14,1,Student,Dependency,SGTR,True Fault,8,4,8,2,4,2,shutdown,87,correct,,1,0,1,1.0
+14,2,Student,Dependency,SGTR,Spoof,3,1,6,3,8,2,online,433,correct,,0,1,1,
+14,3,Student,Dependency,LOFW,True Fault,8,3,6,4,4,3,shutdown,249,correct,,1,0,1,
+14,4,Student,Dependency,LOFW,Spoof,8,3,7,5,4,3,online,192,correct,,0,1,1,
+15,1,Student,Dependency,SGTR,Spoof,3,5,9,1,1,2,online,147,correct,,0,1,1,1.0
+15,2,Student,Dependency,SGTR,True Fault,5,6,9,5,1,3,shutdown,103,correct,,1,0,1,
+15,3,Student,Dependency,LOFW,Spoof,8,8,7,3,7,4,online,503,correct,,0,1,1,
+15,4,Student,Dependency,LOFW,True Fault,10,9,5,10,9,5,shutdown,348,correct,,1,0,1,
+16,1,Student,Dependency,LOFW,True Fault,6,5,7,3,2,4,shutdown,258,correct,,1,0,1,0.75
+16,2,Student,Dependency,LOFW,Spoof,6,5,7,3,1,3,online,449,correct,,0,1,1,
+16,3,Student,Dependency,SGTR,True Fault,7,3,6,3,1,4,shutdown,54,correct,,1,0,1,
+16,4,Student,Dependency,SGTR,Spoof,4,3,7,6,3,4,shutdown,131,error,,0,0,0,
+17,1,Student,Dependency,LOFW,Spoof,9,5,7,9,6,7,online,552,correct,,0,1,1,0.75
+17,2,Student,Dependency,LOFW,True Fault,10,8,8,7,6,6,shutdown,193,correct,,1,0,1,
+17,3,Student,Dependency,SGTR,Spoof,10,8,1,10,10,10,shutdown,15,error,,0,0,0,
+17,4,Student,Dependency,SGTR,True Fault,8,7,9,9,6,6,shutdown,41,correct,,1,0,1,
+18,1,Student,Dependency,SGTR,True Fault,7,6,9,7,4,4,shutdown,17,correct,,1,0,1,0.75
+18,2,Student,Dependency,SGTR,Spoof,4,5,8,7,5,3,shutdown,34,error,,0,0,0,
+18,3,Student,Dependency,LOFW,True Fault,5,4,9,5,3,3,shutdown,245,correct,,1,0,1,
+18,4,Student,Dependency,LOFW,Spoof,4,3,10,3,2,2,online,105,correct,,0,1,1,
+19,1,Student,Dependency,SGTR,Spoof,10,10,3,9,10,8,online,290,correct,,0,1,1,1.0
+19,2,Student,Dependency,SGTR,True Fault,8,10,5,5,9,5,shutdown,47,correct,,1,0,1,
+19,3,Student,Dependency,LOFW,Spoof,10,10,1,10,10,10,online,545,correct,,0,1,1,
+19,4,Student,Dependency,LOFW,True Fault,8,10,7,10,10,6,shutdown,258,correct,,1,0,1,
+20,1,Student,Dependency,LOFW,True Fault,8,9,9,8,6,4,shutdown,274,correct,,1,0,1,0.75
+20,2,Student,Dependency,LOFW,Spoof,9,5,9,6,4,4,online,302,correct,,0,1,1,
+20,3,Student,Dependency,SGTR,True Fault,8,6,9,8,3,4,shutdown,55,correct,,1,0,1,
+20,4,Student,Dependency,SGTR,Spoof,6,8,9,8,2,4,shutdown,59,error,,0,0,0,
+21,1,Student,Dependency,LOFW,Spoof,9,9,8,7,9,5,online,341,correct,,0,1,1,0.75
+21,2,Student,Dependency,LOFW,True Fault,8,7,9,8,7,4,shutdown,273,correct,,1,0,1,
+21,3,Student,Dependency,SGTR,Spoof,9,7,5,8,5,3,shutdown,39,error,,0,0,0,
+21,4,Student,Dependency,SGTR,True Fault,7,6,9,8,4,3,shutdown,32,correct,,1,0,1,
+22,1,Student,Dependency,SGTR,True Fault,5,4,4,5,3,4,shutdown,51,correct,,1,0,1,0.75
+22,2,Student,Dependency,SGTR,Spoof,8,3,1,5,7,5,shutdown,56,error,,0,0,0,
+22,3,Student,Dependency,LOFW,True Fault,3,3,8,3,2,3,shutdown,175,correct,,1,0,1,
+22,4,Student,Dependency,LOFW,Spoof,3,2,7,3,3,3,online,196,correct,,0,1,1,
+23,1,Student,Dependency,SGTR,Spoof,8,7,2,10,8,6,shutdown,20,error,,0,0,0,0.75
+23,2,Student,Dependency,SGTR,True Fault,9,9,5,10,5,4,shutdown,17,correct,,1,0,1,
+23,3,Student,Dependency,LOFW,Spoof,10,10,4,10,4,6,online,415,correct,,0,1,1,
+23,4,Student,Dependency,LOFW,True Fault,7,9,6,10,4,4,shutdown,92,correct,,1,0,1,
+24,1,Student,Dependency,LOFW,True Fault,8,8,3,7,9,5,shutdown,191,correct,,1,0,1,1.0
+24,2,Student,Dependency,LOFW,Spoof,4,8,9,7,2,3,online,157,correct,,0,1,1,
+24,3,Student,Dependency,SGTR,True Fault,9,8,6,8,6,5,shutdown,72,correct,,1,0,1,
+24,4,Student,Dependency,SGTR,Spoof,4,8,7,8,2,3,online,130,correct,,0,1,1,
+25,1,Student,FATR,LOFW,True Fault,9,8,3,8,9,7,shutdown,177,correct,FATR Timeout,1,0,1,0.5
+25,2,Student,FATR,LOFW,Spoof,9,8,2,9,7,6,shutdown,243,error,FATR Timeout,0,0,0,
+25,3,Student,FATR,SGTR,True Fault,9,8,2,9,9,9,shutdown,113,correct,FATR Execute,1,0,1,
+25,4,Student,FATR,SGTR,Spoof,9,8,2,8,8,9,shutdown,117,error,Manual Activation,0,0,0,
+26,1,Student,FATR,LOFW,Spoof,6,7,5,7,7,4,shutdown,158,error,Manual Activation,0,0,0,0.5
+26,2,Student,FATR,LOFW,True Fault,2,2,9,4,2,2,shutdown,177,correct,FATR Execute,1,0,1,
+26,3,Student,FATR,SGTR,Spoof,2,2,9,5,2,2,shutdown,80,error,Manual Activation,0,0,0,
+26,4,Student,FATR,SGTR,True Fault,1,1,10,1,1,1,shutdown,66,correct,Manual Activation,1,0,1,
+27,1,Student,FATR,SGTR,True Fault,8,4,2,5,6,6,shutdown,39,correct,Manual Activation,1,0,1,0.75
+27,2,Student,FATR,SGTR,Spoof,2,2,9,2,2,1,online,105,correct,FATR Cancel,0,1,1,
+27,3,Student,FATR,LOFW,True Fault,7,3,4,5,6,5,shutdown,267,correct,Manual Activation,1,0,1,
+27,4,Student,FATR,LOFW,Spoof,4,4,9,4,4,3,shutdown,435,,,0,0,0,
+28,1,Student,FATR,SGTR,Spoof,9,3,2,6,8,7,shutdown,107,error,Manual Activation,0,0,0,0.5
+28,2,Student,FATR,SGTR,True Fault,9,7,6,6,8,6,shutdown,69,correct,FATR Cancel,1,0,1,
+28,3,Student,FATR,LOFW,Spoof,7,7,10,5,7,4,online,293,correct,FATR Cancel,0,1,1,
+28,4,Student,FATR,LOFW,True Fault,6,3,9,6,6,5,online,226,error,FATR Cancel,1,1,0,
+29,1,Student,FATR,LOFW,True Fault,9,4,2,7,7,4,shutdown,238,correct,FATR Timeout,1,0,1,0.5
+29,2,Student,FATR,LOFW,Spoof,8,5,2,4,4,4,shutdown,203,error,Manual Activation,0,0,0,
+29,3,Student,FATR,SGTR,True Fault,8,3,3,4,5,3,shutdown,24,correct,Manual Activation,1,0,1,
+29,4,Student,FATR,SGTR,Spoof,7,2,4,3,3,2,shutdown,12,error,Manual Activation,0,0,0,
+30,1,Student,FATR,LOFW,Spoof,5,3,5,2,4,3,online,241,correct,FATR Cancel,0,1,1,0.75
+30,2,Student,FATR,LOFW,True Fault,4,3,5,3,5,3,shutdown,211,correct,FATR Execute,1,0,1,
+30,3,Student,FATR,SGTR,Spoof,4,2,4,2,5,3,shutdown,76,error,FATR Execute,0,0,0,
+30,4,Student,FATR,SGTR,True Fault,6,4,3,3,2,4,shutdown,64,correct,FATR Cancel,1,0,1,
+31,1,Student,FATR,SGTR,True Fault,7,6,4,7,6,7,online,249,error,FATR Cancel,1,1,0,0.75
+31,2,Student,FATR,SGTR,Spoof,5,5,6,3,3,5,online,105,correct,FATR Cancel,0,1,1,
+31,3,Student,FATR,LOFW,True Fault,9,6,4,8,6,7,shutdown,392,correct,FATR Timeout,1,0,1,
+31,4,Student,FATR,LOFW,Spoof,7,5,7,8,6,6,online,233,correct,FATR Cancel,0,1,1,
+32,1,Student,FATR,SGTR,Spoof,7,9,3,6,7,6,shutdown,132,error,Manual Activation,0,0,0,0.75
+32,2,Student,FATR,SGTR,True Fault,8,8,4,8,8,7,shutdown,94,correct,FATR Execute,1,0,1,
+32,3,Student,FATR,LOFW,Spoof,4,4,7,6,4,3,online,350,correct,FATR Cancel,0,1,1,
+32,4,Student,FATR,LOFW,True Fault,5,4,7,5,4,5,shutdown,231,correct,FATR Execute,1,0,1,
+33,1,Student,FATR,LOFW,True Fault,10,8,3,7,7,8,online,380,error,FATR Cancel,1,1,0,0.75
+33,2,Student,FATR,LOFW,Spoof,8,3,9,9,3,6,online,176,correct,FATR Cancel,0,1,1,
+33,3,Student,FATR,SGTR,True Fault,8,6,8,5,7,6,shutdown,62,correct,Manual Activation,1,0,1,
+33,4,Student,FATR,SGTR,Spoof,10,8,1,8,8,8,online,134,correct,FATR Cancel,0,1,1,
+34,1,Student,FATR,LOFW,Spoof,7,8,5,4,2,6,online,327,correct,FATR Cancel,0,1,1,0.75
+34,2,Student,FATR,LOFW,True Fault,5,4,5,2,2,2,online,168,error,FATR Cancel,1,1,0,
+34,3,Student,FATR,SGTR,Spoof,1,2,7,1,3,2,online,72,correct,FATR Cancel,0,1,1,
+34,4,Student,FATR,SGTR,True Fault,5,6,2,6,5,5,shutdown,97,correct,Manual Activation,1,0,1,
+35,1,Student,FATR,SGTR,True Fault,9,7,5,6,8,7,shutdown,62,correct,FATR Execute,1,0,1,0.75
+35,2,Student,FATR,SGTR,Spoof,2,2,5,4,6,5,online,180,correct,FATR Cancel,0,1,1,
+35,3,Student,FATR,LOFW,True Fault,7,7,6,8,9,6,shutdown,108,correct,FATR Execute,1,0,1,
+35,4,Student,FATR,LOFW,Spoof,7,8,4,6,8,7,shutdown,200,error,FATR Execute,0,0,0,
+36,1,Student,FATR,SGTR,Spoof,7,2,3,2,9,3,online,587,correct,FATR Cancel,0,1,1,1.0
+36,2,Student,FATR,SGTR,True Fault,10,7,1,9,10,9,shutdown,34,correct,Manual Activation,1,0,1,
+36,3,Student,FATR,LOFW,Spoof,7,7,3,5,3,4,online,259,correct,FATR Cancel,0,1,1,
+36,4,Student,FATR,LOFW,True Fault,6,6,4,5,4,4,shutdown,177,correct,FATR Execute,1,0,1,

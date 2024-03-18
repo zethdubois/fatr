@@ -1,97 +1,97 @@
-SUBJECT,trial,Expertise,Study,Scenario,Fault Condition,Mental Demand,Temporal Demand,Perform.,Effort,Frust. Level,Cooper Harper,Plant Outcome,Diagnosis Time,Error,FATR Outcome,True Fault Logic,outcome logic,Decision,Particpant Batch Correct 
-1,1,Operator,Dependency,LOFW,Fault,7,3,10,7,3,,online,297,correct,,1,0,1,1
+SUBJECT,trial,Expertise,Study,Scenario,Fault,Mental Demand,Temporal Demand,Performance,Effort,Frustration Level,Cooper Harper,Plant Outcome,Diagnosis Time,Error,FATR Outcome,True True Fault Logic,outcome logic,Decision,Particpant Batch Correct 
+1,1,Operator,Dependency,LOFW,True Fault,7,3,10,7,3,,online,297,correct,,1,0,1,1
 1,2,Operator,Dependency,LOFW,Spoof,4,2,10,3,2,3,shutdown,400,correct,,0,1,1,
-1,3,Operator,Dependency,SGTR,Fault,4,3,9,3,2,3,online,118,correct,,1,0,1,
+1,3,Operator,Dependency,SGTR,True Fault,4,3,9,3,2,3,online,118,correct,,1,0,1,
 1,4,Operator,Dependency,SGTR,Spoof,4,2,9,4,2,3,shutdown,359,correct,,0,1,1,
 2,1,Operator,Dependency,SGTR,Spoof,2,2,9,3,1,2,online,278,correct,,0,1,1,1
-2,2,Operator,Dependency,SGTR,Fault,4,3,8,2,2,2,shutdown,321,correct,,1,0,1,
+2,2,Operator,Dependency,SGTR,True Fault,4,3,8,2,2,2,shutdown,321,correct,,1,0,1,
 2,3,Operator,Dependency,LOFW,Spoof,6,4,9,4,3,7,online,167,correct,,0,1,1,
-2,4,Operator,Dependency,LOFW,Fault,5,3,10,4,2,7,shutdown,77,correct,,1,0,1,
-3,1,Operator,Dependency,SGTR,Fault,7,5,7,6,6,,shutdown,165,correct,,1,0,1,1
+2,4,Operator,Dependency,LOFW,True Fault,5,3,10,4,2,7,shutdown,77,correct,,1,0,1,
+3,1,Operator,Dependency,SGTR,True Fault,7,5,7,6,6,,shutdown,165,correct,,1,0,1,1
 3,2,Operator,Dependency,SGTR,Spoof,8,8,9,8,7,,online,268,correct,,0,1,1,
-3,3,Operator,Dependency,LOFW,Fault,9,6,9,4,3,,shutdown,308,correct,,1,0,1,
+3,3,Operator,Dependency,LOFW,True Fault,9,6,9,4,3,,shutdown,308,correct,,1,0,1,
 3,4,Operator,Dependency,LOFW,Spoof,6,6,10,8,3,,online,284,correct,,0,1,1,
 4,1,Operator,Dependency,LOFW,Spoof,3,2,9,3,3,3,online,240,correct,,0,1,1,1
-4,2,Operator,Dependency,LOFW,Fault,1,1,10,1,1,1,shutdown,45,correct,,1,0,1,
+4,2,Operator,Dependency,LOFW,True Fault,1,1,10,1,1,1,shutdown,45,correct,,1,0,1,
 4,3,Operator,Dependency,SGTR,Spoof,2,2,10,1,1,3,online,157,correct,,0,1,1,
-4,4,Operator,Dependency,SGTR,Fault,1,1,10,1,1,2,shutdown,348,correct,,1,0,1,
-5,1,Operator,Dependency,LOFW,Fault,5,2,8,2,3,2,shutdown,155,correct,,1,0,1,1
+4,4,Operator,Dependency,SGTR,True Fault,1,1,10,1,1,2,shutdown,348,correct,,1,0,1,
+5,1,Operator,Dependency,LOFW,True Fault,5,2,8,2,3,2,shutdown,155,correct,,1,0,1,1
 5,2,Operator,Dependency,LOFW,Spoof,3,2,9,3,3,2,online,247,correct,,0,1,1,
-5,3,Operator,Dependency,SGTR,Fault,3,4,9,3,2,3,shutdown,32,correct,,1,0,1,
+5,3,Operator,Dependency,SGTR,True Fault,3,4,9,3,2,3,shutdown,32,correct,,1,0,1,
 5,4,Operator,Dependency,SGTR,Spoof,5,5,8,2,4,3,online,223,correct,,0,1,1,
 6,1,Operator,Dependency,SGTR,Spoof,7,3,9,5,2,2,online,196,correct,,0,1,1,1
-6,2,Operator,Dependency,SGTR,Fault,5,1,3,2,6,3,shutdown,169,correct,,1,0,1,
+6,2,Operator,Dependency,SGTR,True Fault,5,1,3,2,6,3,shutdown,169,correct,,1,0,1,
 6,3,Operator,Dependency,LOFW,Spoof,6,3,9,7,5,7,online,241,correct,,0,1,1,
-6,4,Operator,Dependency,LOFW,Fault,2,2,9,2,2,1,shutdown,285,correct,,1,0,1,
-7,1,Operator,Dependency,SGTR,Fault,1,1,8,1,5,3,shutdown,211,correct,,1,0,1,1
+6,4,Operator,Dependency,LOFW,True Fault,2,2,9,2,2,1,shutdown,285,correct,,1,0,1,
+7,1,Operator,Dependency,SGTR,True Fault,1,1,8,1,5,3,shutdown,211,correct,,1,0,1,1
 7,2,Operator,Dependency,SGTR,Spoof,2,2,9,2,2,3,online,279,correct,,0,1,1,
-7,3,Operator,Dependency,LOFW,Fault,1,1,10,1,1,2,shutdown,385,correct,,1,0,1,
+7,3,Operator,Dependency,LOFW,True Fault,1,1,10,1,1,2,shutdown,385,correct,,1,0,1,
 7,4,Operator,Dependency,LOFW,Spoof,3,3,9,3,2,3,online,108,correct,,0,1,1,
 8,1,Operator,Dependency,LOFW,Spoof,3,2,10,2,1,1,online,278,correct,,0,1,1,1
-8,2,Operator,Dependency,LOFW,Fault,2,1,10,3,1,1,shutdown,260,correct,,1,0,1,
+8,2,Operator,Dependency,LOFW,True Fault,2,1,10,3,1,1,shutdown,260,correct,,1,0,1,
 8,3,Operator,Dependency,SGTR,Spoof,4,2,9,4,3,8,online,253,correct,,0,1,1,
-8,4,Operator,Dependency,SGTR,Fault,1,1,10,1,1,1,shutdown,449,correct,,1,0,1,
-9,1,Operator,Dependency,LOFW,Fault,5,1,1,5,5,3,shutdown,195,correct,,1,0,1,1
+8,4,Operator,Dependency,SGTR,True Fault,1,1,10,1,1,1,shutdown,449,correct,,1,0,1,
+9,1,Operator,Dependency,LOFW,True Fault,5,1,1,5,5,3,shutdown,195,correct,,1,0,1,1
 9,2,Operator,Dependency,LOFW,Spoof,3,1,4,4,2,3,online,533,correct,,0,1,1,
-9,3,Operator,Dependency,SGTR,Fault,4,2,5,4,1,3,shutdown,200,correct,,1,0,1,
+9,3,Operator,Dependency,SGTR,True Fault,4,2,5,4,1,3,shutdown,200,correct,,1,0,1,
 9,4,Operator,Dependency,SGTR,Spoof,3,2,10,2,1,1,online,195,correct,,0,1,1,
 10,1,Operator,Dependency,SGTR,Spoof,5,4,10,4,3,2,online,271,correct,,0,1,1,1
-10,2,Operator,Dependency,SGTR,Fault,5,1,10,1,2,1,shutdown,142,correct,,1,0,1,
+10,2,Operator,Dependency,SGTR,True Fault,5,1,10,1,2,1,shutdown,142,correct,,1,0,1,
 10,3,Operator,Dependency,LOFW,Spoof,4,2,10,3,2,2,online,172,correct,,0,1,1,
-10,4,Operator,Dependency,LOFW,Fault,2,1,10,2,2,1,shutdown,94,correct,,1,0,1,
-11,1,Operator,Dependency,SGTR,Fault,6,,2,6,8,7,shutdown,43,correct,,1,0,1,0.75
+10,4,Operator,Dependency,LOFW,True Fault,2,1,10,2,2,1,shutdown,94,correct,,1,0,1,
+11,1,Operator,Dependency,SGTR,True Fault,6,,2,6,8,7,shutdown,43,correct,,1,0,1,0.75
 11,2,Operator,Dependency,SGTR,Spoof,8,4,9,6,3,4,shutdown,91,error,,0,0,0,
-11,3,Operator,Dependency,LOFW,Fault,4,3,9,3,3,2,shutdown,322,correct,,1,0,1,
+11,3,Operator,Dependency,LOFW,True Fault,4,3,9,3,3,2,shutdown,322,correct,,1,0,1,
 11,4,Operator,Dependency,LOFW,Spoof,6,3,8,6,3,4,online,148,correct,,0,1,1,
 12,1,Operator,Dependency,LOFW,Spoof,6,8,9,6,2,5,online,107,correct,,0,1,1,1
-12,2,Operator,Dependency,LOFW,Fault,6,5,9,2,2,2,shutdown,63,correct,,1,0,1,
+12,2,Operator,Dependency,LOFW,True Fault,6,5,9,2,2,2,shutdown,63,correct,,1,0,1,
 12,3,Operator,Dependency,SGTR,Spoof,8,8,8,8,6,6,online,184,correct,,0,1,1,
-12,4,Operator,Dependency,SGTR,Fault,2,2,10,2,2,2,shutdown,296,correct,,1,0,1,
+12,4,Operator,Dependency,SGTR,True Fault,2,2,10,2,2,2,shutdown,296,correct,,1,0,1,
 13,1,Student,Dependency,LOFW,Spoof,7,6,6,6,5,7,shutdown,322,error,,0,0,0,0.5
-13,2,Student,Dependency,LOFW,Fault,7,8,8,7,6,8,shutdown,417,correct,,1,0,1,
+13,2,Student,Dependency,LOFW,True Fault,7,8,8,7,6,8,shutdown,417,correct,,1,0,1,
 13,3,Student,Dependency,SGTR,Spoof,6,9,5,7,9,7,shutdown,0,error,,0,0,0,
-13,4,Student,Dependency,SGTR,Fault,8,8,9,7,5,6,shutdown,69,correct,,1,0,1,
-14,1,Student,Dependency,SGTR,Fault,8,4,8,2,4,2,shutdown,87,correct,,1,0,1,1
+13,4,Student,Dependency,SGTR,True Fault,8,8,9,7,5,6,shutdown,69,correct,,1,0,1,
+14,1,Student,Dependency,SGTR,True Fault,8,4,8,2,4,2,shutdown,87,correct,,1,0,1,1
 14,2,Student,Dependency,SGTR,Spoof,3,1,6,3,8,2,online,433,correct,,0,1,1,
-14,3,Student,Dependency,LOFW,Fault,8,3,6,4,4,3,shutdown,249,correct,,1,0,1,
+14,3,Student,Dependency,LOFW,True Fault,8,3,6,4,4,3,shutdown,249,correct,,1,0,1,
 14,4,Student,Dependency,LOFW,Spoof,8,3,7,5,4,3,online,192,correct,,0,1,1,
 15,1,Student,Dependency,SGTR,Spoof,3,5,9,1,1,2,online,147,correct,,0,1,1,1
-15,2,Student,Dependency,SGTR,Fault,5,6,9,5,1,3,shutdown,103,correct,,1,0,1,
+15,2,Student,Dependency,SGTR,True Fault,5,6,9,5,1,3,shutdown,103,correct,,1,0,1,
 15,3,Student,Dependency,LOFW,Spoof,8,8,7,3,7,4,online,503,correct,,0,1,1,
-15,4,Student,Dependency,LOFW,Fault,10,9,5,10,9,5,shutdown,348,correct,,1,0,1,
-16,1,Student,Dependency,LOFW,Fault,6,5,7,3,2,4,shutdown,258,correct,,1,0,1,0.75
+15,4,Student,Dependency,LOFW,True Fault,10,9,5,10,9,5,shutdown,348,correct,,1,0,1,
+16,1,Student,Dependency,LOFW,True Fault,6,5,7,3,2,4,shutdown,258,correct,,1,0,1,0.75
 16,2,Student,Dependency,LOFW,Spoof,6,5,7,3,1,3,online,449,correct,,0,1,1,
-16,3,Student,Dependency,SGTR,Fault,7,3,6,3,1,4,shutdown,54,correct,,1,0,1,
+16,3,Student,Dependency,SGTR,True Fault,7,3,6,3,1,4,shutdown,54,correct,,1,0,1,
 16,4,Student,Dependency,SGTR,Spoof,4,3,7,6,3,4,shutdown,131,error,,0,0,0,
 17,1,Student,Dependency,LOFW,Spoof,9,5,7,9,6,7,online,552,correct,,0,1,1,0.75
-17,2,Student,Dependency,LOFW,Fault,10,8,8,7,6,6,shutdown,193,correct,,1,0,1,
+17,2,Student,Dependency,LOFW,True Fault,10,8,8,7,6,6,shutdown,193,correct,,1,0,1,
 17,3,Student,Dependency,SGTR,Spoof,10,8,1,10,10,10,shutdown,15,error,,0,0,0,
-17,4,Student,Dependency,SGTR,Fault,8,7,9,9,6,6,shutdown,41,correct,,1,0,1,
-18,1,Student,Dependency,SGTR,Fault,7,6,9,7,4,4,shutdown,17,correct,,1,0,1,0.75
+17,4,Student,Dependency,SGTR,True Fault,8,7,9,9,6,6,shutdown,41,correct,,1,0,1,
+18,1,Student,Dependency,SGTR,True Fault,7,6,9,7,4,4,shutdown,17,correct,,1,0,1,0.75
 18,2,Student,Dependency,SGTR,Spoof,4,5,8,7,5,3,shutdown,34,error,,0,0,0,
-18,3,Student,Dependency,LOFW,Fault,5,4,9,5,3,3,shutdown,245,correct,,1,0,1,
+18,3,Student,Dependency,LOFW,True Fault,5,4,9,5,3,3,shutdown,245,correct,,1,0,1,
 18,4,Student,Dependency,LOFW,Spoof,4,3,10,3,2,2,online,105,correct,,0,1,1,
 19,1,Student,Dependency,SGTR,Spoof,10,10,3,9,10,8,online,290,correct,,0,1,1,1
-19,2,Student,Dependency,SGTR,Fault,8,10,5,5,9,5,shutdown,47,correct,,1,0,1,
+19,2,Student,Dependency,SGTR,True Fault,8,10,5,5,9,5,shutdown,47,correct,,1,0,1,
 19,3,Student,Dependency,LOFW,Spoof,10,10,1,10,10,10,online,545,correct,,0,1,1,
-19,4,Student,Dependency,LOFW,Fault,8,10,7,10,10,6,shutdown,258,correct,,1,0,1,
-20,1,Student,Dependency,LOFW,Fault,8,9,9,8,6,4,shutdown,274,correct,,1,0,1,0.75
+19,4,Student,Dependency,LOFW,True Fault,8,10,7,10,10,6,shutdown,258,correct,,1,0,1,
+20,1,Student,Dependency,LOFW,True Fault,8,9,9,8,6,4,shutdown,274,correct,,1,0,1,0.75
 20,2,Student,Dependency,LOFW,Spoof,9,5,9,6,4,4,online,302,correct,,0,1,1,
-20,3,Student,Dependency,SGTR,Fault,8,6,9,8,3,4,shutdown,55,correct,,1,0,1,
+20,3,Student,Dependency,SGTR,True Fault,8,6,9,8,3,4,shutdown,55,correct,,1,0,1,
 20,4,Student,Dependency,SGTR,Spoof,6,8,9,8,2,4,shutdown,59,error,,0,0,0,
 21,1,Student,Dependency,LOFW,Spoof,9,9,8,7,9,5,online,341,correct,,0,1,1,0.75
-21,2,Student,Dependency,LOFW,Fault,8,7,9,8,7,4,shutdown,273,correct,,1,0,1,
+21,2,Student,Dependency,LOFW,True Fault,8,7,9,8,7,4,shutdown,273,correct,,1,0,1,
 21,3,Student,Dependency,SGTR,Spoof,9,7,5,8,5,3,shutdown,39,error,,0,0,0,
-21,4,Student,Dependency,SGTR,Fault,7,6,9,8,4,3,shutdown,32,correct,,1,0,1,
-22,1,Student,Dependency,SGTR,Fault,5,4,4,5,3,4,shutdown,51,correct,,1,0,1,0.75
+21,4,Student,Dependency,SGTR,True Fault,7,6,9,8,4,3,shutdown,32,correct,,1,0,1,
+22,1,Student,Dependency,SGTR,True Fault,5,4,4,5,3,4,shutdown,51,correct,,1,0,1,0.75
 22,2,Student,Dependency,SGTR,Spoof,8,3,1,5,7,5,shutdown,56,error,,0,0,0,
-22,3,Student,Dependency,LOFW,Fault,3,3,8,3,2,3,shutdown,175,correct,,1,0,1,
+22,3,Student,Dependency,LOFW,True Fault,3,3,8,3,2,3,shutdown,175,correct,,1,0,1,
 22,4,Student,Dependency,LOFW,Spoof,3,2,7,3,3,3,online,196,correct,,0,1,1,
 23,1,Student,Dependency,SGTR,Spoof,8,7,2,10,8,6,shutdown,20,error,,0,0,0,0.75
-23,2,Student,Dependency,SGTR,Fault,9,9,5,10,5,4,shutdown,17,correct,,1,0,1,
+23,2,Student,Dependency,SGTR,True Fault,9,9,5,10,5,4,shutdown,17,correct,,1,0,1,
 23,3,Student,Dependency,LOFW,Spoof,10,10,4,10,4,6,online,415,correct,,0,1,1,
-23,4,Student,Dependency,LOFW,Fault,7,9,6,10,4,4,shutdown,92,correct,,1,0,1,
-24,1,Student,Dependency,LOFW,Fault,8,8,3,7,9,5,shutdown,191,correct,,1,0,1,1
+23,4,Student,Dependency,LOFW,True Fault,7,9,6,10,4,4,shutdown,92,correct,,1,0,1,
+24,1,Student,Dependency,LOFW,True Fault,8,8,3,7,9,5,shutdown,191,correct,,1,0,1,1
 24,2,Student,Dependency,LOFW,Spoof,4,8,9,7,2,3,online,157,correct,,0,1,1,
-24,3,Student,Dependency,SGTR,Fault,9,8,6,8,6,5,shutdown,72,correct,,1,0,1,
+24,3,Student,Dependency,SGTR,True Fault,9,8,6,8,6,5,shutdown,72,correct,,1,0,1,
 24,4,Student,Dependency,SGTR,Spoof,4,8,7,8,2,3,online,130,correct,,0,1,1,
